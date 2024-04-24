@@ -117,9 +117,9 @@ subheader:
     {%- assign bullet_point = "&#x2022;" -%}
     {%- for item in component.products -%}
       {%- if component.index == 1 -%}
-        {{bullet_point}} {{item.name}}<br>
+        <div id="{{item.id}}" class="d-block">{{bullet_point}} {{item.name}}</div>
       {%- else -%}
-        {{bullet_point}} <a href="{{item.link}}">{{item.name}}</a><br>
+        <div id="{{item.id}}" class="d-block">{{bullet_point}} <a href="{{item.link}}">{{item.name}}</a></div>
       {%- endif -%}
     {%- endfor -%}
     </div>
@@ -204,6 +204,33 @@ Item | Component  | Product | Price | Notes | Setup
 ### #StakeFromHome
 
 Check out the [#StakeFromHome gallery](https://bafybeidlhoas5o3thlzjgei3gkxgwgcyvv7hgofaknxl6cgv7gbw5nwqoq.ipfs.nftstorage.link/) to view other node operator setups or share your setup with others by tweeting out an image with the #StakeFromHome hashtag!
+
+
+
+
+
+
+
+
+
+http://www.amazon.com/gp/aws/cart/add.html?&ASIN.1=B00V86BJV4&Quantity.1=1&ASIN.2=B00V86BRHU&Quantity.2=1&ASIN.3=B00V86BRK2&Quantity.3=1
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
